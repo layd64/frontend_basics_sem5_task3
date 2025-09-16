@@ -1,0 +1,105 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.credits {
+    display: block;
+    text-align: center;
+    padding: 20px;
+}
+
+.container {
+    width: 1000px;
+    height: 800px;
+    background-color: white;
+    position: relative;
+    margin: 0 auto;
+    display: flex;
+}
+
+.left-block {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 30%;
+    height: 85%;
+    background-color: #90EE90;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.top-block {
+    position: absolute;
+    left: 30%;
+    top: 0;
+    width: 70%;
+    height: 15%;
+    background-color: #87CEEB;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.middle-block {
+    position: absolute;
+    left: 30%;
+    top: 15%;
+    width: 40%;
+    height: 70%;
+    background-color: #FFFF99;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.far-right-block {
+    position: absolute;
+    left: 700px;
+    top: 120px;
+    width: 30%;
+    height: 85%;
+    background-color: #FF69B4;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.bottom-block {
+    position: absolute;
+    left: 0;
+    top: 85%;
+    width: 70%;
+    height: 15%;
+    background-color: #FFB366;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.block-label {
+    font-size: 24px;
+    color: #000000;
+}
+
+.link {
+    display: block;
+    text-align: center;
+    margin: 20px auto;
+    padding: 10px 20px;
+    background-color: #426eff;
+    color:#ffffff;
+    text-decoration: none;
+    width: fit-content;
+}

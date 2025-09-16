@@ -1,0 +1,94 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    padding: 20px;
+}
+
+.credits {
+    display: block;
+    text-align: center;
+    padding: 20px;
+}
+
+.container {
+    width: 1000px;
+    height: 800px;
+    background-color: white;
+    margin: 0 auto;
+    position: relative;
+}
+
+.left-block {
+    float: left;
+    width: 30%;
+    height: 85%;
+    background-color: #90EE90;
+    text-align: center;
+    line-height: 680px;
+}
+
+.top-block {
+    float: left;
+    width: 70%;
+    height: 15%;
+    background-color: #87CEEB;
+    text-align: center;
+    line-height: 120px;
+}
+
+.middle-block {
+    float: left;
+    width: 40%;
+    height: 70%;
+    background-color: #FFFF99;
+    text-align: center;
+    line-height: 560px;
+}
+
+.far-right-block {
+    float: left;
+    width: 30%;
+    height: 85%;
+    background-color: #FF69B4;
+    text-align: center;
+    line-height: 680px;
+}
+
+.bottom-block {
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 70%;
+    height: 15%;
+    background-color: #FFB366;
+    text-align: center;
+    line-height: 120px;
+}
+
+.block-label {
+    font-size: 24px;
+    color: #000000;
+}
+
+/* Очищення float після контейнера */
+.container::after {
+    content: "";
+    clear: both;
+}
+
+.link {
+    display: block;
+    text-align: center;
+    margin: 20px auto;
+    padding: 10px 20px;
+    background-color: #426eff;
+    color:#ffffff;
+    text-decoration: none;
+    width: fit-content;
+}
