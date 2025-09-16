@@ -1,4 +1,4 @@
-## Frontend Basics - Lab gi3
+## Frontend Basics - Lab 3
 ## Burakov Stanislav IP-34
 
 A simple static project demonstrating two page layouts of the same UI using classic CSS techniques: float-based layout and a flex/absolute-based layout.
